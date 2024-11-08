@@ -1,0 +1,683 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Open Sans", sans-serif;
+}
+a, a:hover{
+    text-decoration: none;   
+}
+/* Global CSS starts*/
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+/* Global CSS ends */
+.header{
+    width: 100%;
+    padding: 10px 0px;
+    position: fixed;
+    background-color: #fff;
+}
+.inner-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 150px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    margin: 22px 15px 0px;
+    color: #0665C4;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.buttons-group{
+    display: flex;
+}
+.btn-info{
+    display: inline-block;
+    padding: 12px 30px;
+    margin:8px 0px 0px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #0665C4;
+    border: 1px solid #0665C4;
+    color: #fff;  
+    transition: 1s; 
+}
+.btn-info:hover{
+    background: #00AEEF;
+    border: 1px solid #00AEEF;
+    color: #fff;
+}
+.banner-section{
+    width: 100%;
+    padding: 80px 0px;
+    background:url(../image/Hero-BG.jpg) center no-repeat;
+    background-size: cover; 
+}
+.inner-banner{
+    display: flex;
+    align-items: center;
+}
+.left-banner{
+    flex-basis: 45%;
+}
+.left-banner h1{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color:#0665C4;
+}
+.left-banner p{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color:#0665C4;
+    margin: 15px 0px;
+}
+.left-banner .btn-info{
+    display: inline-block;
+    padding: 12px 30px;
+    margin:8px 0px 0px 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #0665C4;
+    border: 1px solid #0665C4;
+    color: #fff;  
+    transition: 1s; 
+}
+.left-banner .btn-info:hover{
+    background: #00AEEF;
+    border: 1px solid #00AEEF;
+    color: #fff;
+}
+.right-banner{
+    flex-basis: 55%;
+    text-align: center;
+}
+.right-banner img{
+    width: 100%;
+}
+.feature-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-feature{
+    display: flex;
+}
+.graduates{
+    display: flex;
+    flex-basis: 30%;
+    background: #F9799A;
+    margin: 0px 10px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.earned{
+    display: flex;
+    flex-basis: 30%;
+    background: #61C4D8;
+    margin: 0px 10px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.members{
+    display: flex;
+    flex-basis: 30%;
+    background: #0E72CC;
+    margin: 0px 10px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.icon{
+    flex-basis: 15%;
+}
+.icon .fa{
+    font-size: 24px;
+    color: white;
+}
+.content{
+    flex-basis: 85%;
+}
+.content h4{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color:#fff;
+}
+.content p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color:#fff;
+    margin: 15px 0px 0px;
+}
+.Banner2{
+    width: 100%;
+    padding: 76px 0px;
+}
+.inner-banner2{
+    display: flex;
+    align-items: center;
+}
+.left-banner2 .btn-info{
+    display: inline-block;
+    padding: 12px 30px;
+    margin:8px 0px 0px 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #0665C4;
+    border: 1px solid #0665C4;
+    color: #fff;  
+    transition: 1s; 
+}
+.left-banner2 .btn-info:hover{
+    background: #00AEEF;
+    border: 1px solid #00AEEF;
+    color: #fff;
+}
+.right-banner2{
+    flex-basis: 55%;
+    text-align: center;
+}
+.right-banner2 img{
+    width: 100%;
+    margin: 0px 0px 0px 30px;
+}
+.left-banner2{
+    flex-basis: 45%;
+}
+.left-banner2 h3{
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 2em;
+}
+.left-banner2 h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: black;
+}
+.left-banner2 p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #000000;
+    margin: 22px 0px
+}
+.banner3{
+    width: 100%;
+    background-color: #F5F7FA;
+}
+.inner-banner3{
+    display: flex;
+    align-items: center;
+}
+.left-banner3{
+    flex-basis: 60%;
+    text-align: center;
+}
+.left-banner3 img{
+    width: 90%;
+}
+.right-banner3 .btn-info{
+    border-radius: 5px;
+}
+.right-banner3 .btn-info:hover{
+    background: #00AEEF;
+    border: 1px solid #00AEEF;
+    color: #fff;
+}
+.right-banner3{
+    flex-basis: 40%;
+    padding: 118px 0px;
+}
+.right-banner3 h3{
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 2em;
+}
+.right-banner3 h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: black;
+}
+.right-banner3 p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #000000;
+    margin: 22px 0px
+}
+.banner4{
+    width: 100%;
+    padding: 76px 0px;
+}
+.inner-banner4{
+    display: flex;
+    align-items: center;
+}
+.left-banner4 .btn-info{
+    display: inline-block;
+    padding: 12px 30px;
+    margin:8px 0px 0px 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #0665C4;
+    border: 1px solid #0665C4;
+    color: #fff;  
+    transition: 1s; 
+}
+.left-banner4 .btn-info:hover{
+    background: #00AEEF;
+    border: 1px solid #00AEEF;
+    color: #fff;
+}
+.right-banner4{
+    flex-basis: 55%;
+    text-align: center;
+}
+.right-banner4 img{
+    width: 100%;
+    margin: 0px 0px 0px 30px;
+}
+.left-banner4{
+    flex-basis: 45%;
+}
+.left-banner4 h3{
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 2em;
+}
+.left-banner4 h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: black;
+}
+.left-banner4 p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #000000;
+    margin: 22px 0px
+}
+.courses{
+    width: 100%;
+    padding: 80px 0px;
+    background:url(../image/graphic.jpg);
+    background-size: cover;
+}
+.inner-container{
+    width: 100%;
+}
+.top{
+    width: 100%;
+}
+.top h1{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    color: #fff;
+    margin: 10px 0px 10px 0px;    
+}
+.boxes{
+    display: flex;
+    padding: 50px 10px;
+}
+.digital-marketing{
+    flex-basis: 23%;
+    background-color: #fff;
+    border-radius: 7px;
+    margin: 15px;
+}
+.DM1{
+    background: url(../image/digital-marketing.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    padding: 40px 0px;
+    margin: 15px 15px;
+}
+.DM1 h3{
+    
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+    
+}
+.DM1 h3 span{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.DM2{
+    padding: 0px 20px 20px 0px;
+    margin: 15px 15px;
+}
+.DM2 h4{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: capitalize;
+    color: #000;
+    margin: 0px 0px 10px 0px;
+}
+.DM2 p{
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #000;
+}
+.full-stack{
+    flex-basis: 23%;
+    background-color: #fff;
+    border-radius: 7px;
+    margin: 15px;
+}
+.FS1{
+    background: url(../image/full-stack.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    padding: 40px 0px;
+    margin: 15px 15px;
+}
+.FS1 h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.FS1 h3 span{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.FS2{
+    padding: 0px 20px 20px 0px;
+    margin: 15px 15px;
+}
+.FS2 h4{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: capitalize;
+    color: #000;
+    margin: 0px 0px 10px 0px;
+}
+.FS2 p{
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #000;
+}
+.graphik-Ui{
+    flex-basis: 23%;
+    background-color: #fff;
+    border-radius: 7px;
+    margin: 15px;
+}
+.GU1{
+    background: url(../image/graphic.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    padding: 40px 0px;
+    margin: 15px 15px;
+}
+.GU1 h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.GU1 h3 span{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.GU2{
+    padding: 0px 20px 20px 0px;
+    margin: 15px 15px;
+}
+.GU2 h4{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: capitalize;
+    color: #000;
+    margin: 0px 0px 10px 0px;
+}
+.GU2 p{
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #000;
+}
+.shopify{
+    flex-basis: 23%;
+    background-color: #fff;
+    border-radius: 7px;
+    margin: 15px;
+}
+.SH1{
+    background: url(../image/shopify.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    padding: 40px 0px;
+    margin: 15px 15px;
+}
+.SH1 h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.SH1 h3 span{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.SH2{
+    padding: 0px 20px 20px 0px;
+    margin: 15px 15px;
+}
+.SH2 h4{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: capitalize;
+    color: #000;
+    margin: 0px 0px 10px 0px;
+}
+.SH2 p{
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #000;
+}
+.picture{
+    
+    padding: 80px 0px 40px 0px;
+}
+.image img{
+    width: 100%;
+}
+.text{
+    width: 100%;
+    padding: 60px 0px;
+}
+.inner-text{
+    width: 100%;
+    background: #0E72CC;
+    border-radius: 7px;
+    text-align: center;
+}
+.inner-text h3{
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 100px 0px 14px 0px
+}
+.inner-text h5{
+    padding:  3px 0px 110px 0px;
+    font-size: 15px;
+    line-height: 2.0em;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+}
+.inner-last-banner{
+    display: flex;
+    padding: 80px 0px 0px 0px;
+}
+.text1{
+    flex-basis: 23%;
+    padding: 0px 20px 0px 20px;
+}
+.text1 h4{
+    font-size: 19px;
+    font-weight: 700;
+    text-align: start;
+    text-transform: capitalize;
+    color: #0E72CC;
+    padding: 0px 0px 14px 0px;
+}
+.text1 p{
+    font-size: 16px;
+    line-height: 2.0em;
+    font-weight: 400;
+    color: #91A3CA;
+}
+.text2{
+    flex-basis: 23%;
+    padding: 0px 20px 0px 20px;
+}
+.text2 h4{
+    font-size: 19px;
+    font-weight: 700;
+    text-align: start;
+    text-transform: capitalize;
+    color: #0E72CC;
+    padding: 0px 0px 14px 0px;
+}
+.text2 p{
+    font-size: 16px;
+    line-height: 2.0em;
+    font-weight: 400;
+    color: #91A3CA;
+}
+.text3{
+    flex-basis: 23%;
+    padding: 0px 20px 0px 20px;
+}
+.text3 h4{
+    font-size: 19px;
+    font-weight: 700;
+    text-align: start;
+    text-transform: capitalize;
+    color: #0E72CC;
+    padding: 0px 0px 14px 0px;
+}
+.text3 ul li{
+    list-style: none;
+}
+.text3 ul li a{
+    display: block;
+    font-size: 16px;
+    line-height: 2.0em;
+    font-weight: 400;
+    color: #91A3CA;
+    transition: all 0.4s ease;
+}
+.text3 ul li a:hover {
+    color: #91A3CA; 
+    transform: translateX(8px); 
+}
+.text4{
+    flex-basis: 23%;
+    padding: 0px 20px 0px 20px;
+}
+.text4 h4{
+    font-size: 19px;
+    font-weight: 700;
+    text-align: start;
+    text-transform: capitalize;
+    color: #0E72CC;
+    padding: 0px 0px 14px 0px;
+}
+.text4 ul li{
+    list-style: none;
+}
+.text4 ul li a{
+    display: block;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 2.0em;
+    font-weight: 400;
+    color: #91A3CA;
+    transition: all 0.4s ease;
+}
+.text4 ul li a:hover {
+    color: #91A3CA; 
+    transform: translateX(8px); 
+}
+.footer-image{
+    width: 100%;
+}
+.inner-image{
+    width: 100%;
+}
+.inner-image img{
+    width: 100%;
+    padding: 30px 0px;
+}
+.footer{
+    padding: 0px 0px 12px 0px;
+}
+.inner-footer{
+    width: 100%;
+
+}
+.inner-footer p{
+    text-align: center;
+    color: #92c0dd;
+}
